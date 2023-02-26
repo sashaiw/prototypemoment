@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  kirby:
+    build: .
+    container_name: prototypemoment
+    env_file: .env
+    restart: always
